@@ -1,0 +1,23 @@
+.heading {
+    text-align: center;
+  }
+
+.search-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding:1rem;
+    width : 40rem
+  }
+.first-name,.last-name,.country,.player-score {
+    width: 7.5rem;
+  }
+.add-player {
+    width: 6rem;
+    background-color: #E6C9C5;
+    height: 2rem;
+    
+  }
+.add-player:focus {
+    outline: 0;
+  }

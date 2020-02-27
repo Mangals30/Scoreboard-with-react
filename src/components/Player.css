@@ -1,0 +1,54 @@
+.player-div {
+    display: flex;
+    background-color: #E6C9C5;
+    margin-top: 1rem;
+    font-size: 12px;
+    height: 4rem;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 35rem;
+  }
+  .name-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:10rem;
+  }
+  
+  .time-div {
+    display: flex;
+    margin-top: 0.5rem;
+  
+  }
+  .country-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width : 5rem
+  }
+  .score-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:1rem
+  
+  }
+  .del-add-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .del-button,.plus-button,.minus-button {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  text-align: center;
+  outline:0;
+  
+  }
+  .del-button {
+    color: red;
+  }
