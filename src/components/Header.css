@@ -7,10 +7,11 @@
     justify-content: space-evenly;
     align-content: center;
     padding:1rem;
-    width : 40rem
+    width : 42rem
   }
 .first-name,.last-name,.country,.player-score {
     width: 7.5rem;
+    padding-left: 0.5rem;
   }
 .add-player {
     width: 6rem;
